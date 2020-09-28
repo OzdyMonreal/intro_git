@@ -6,7 +6,7 @@ int main() {
   char nombre[30];
   unsigned int edad;
 
-	cout << "Hello World!" << endl;
+	// cout << "Hello World!" << endl;
   cout << "Nombre: "; cin.getline(nombre, sizeof(nombre), '\n');
   cout << "Hola " << nombre << "!!\n";
   cout << "Edad: "; cin >> edad;
